@@ -14,13 +14,29 @@ body{
   margin-right: auto;
 }
 footer{
-	margin: 4%
+	margin: 4%;
+	background-color: rgba(88,185,183,0.7);
 }
-ul li::before {
+/*ul li::before {
     content: "\f434";
     font-family: "Font Awesome 5 Brands";
     padding: 0 10px 0 0;
-}
+}*/
 ul li {
     list-style-type: none;
+}
+span{
+	border-radius: 10px
+}
+#grad {
+  background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+div{
+	line-height: 1.5;
+}
+.half{
+	display: inline-block;
+	width: 46%;
+	margin-right: 2%;
+	float: left;
 }
