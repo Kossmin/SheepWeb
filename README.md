@@ -1,2 +1,2 @@
 # SheepWeb
-https://kossmin.github.io/SheepWeb/SheepHunterPage.html
+https://kossmin.github.io/SheepWeb/
