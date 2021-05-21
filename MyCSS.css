@@ -40,3 +40,45 @@ div{
 	margin-right: 2%;
 	float: left;
 }
+.one-third{
+	display: inline-block;
+	width: 100%;
+	margin-right: 2%;
+	float: left;
+	clear: both;
+}
+
+a:hover {
+  background-color: yellow;
+  transform: rotate(180deg);
+
+}
+i: hover{
+	transform: rotate(180deg);
+}
+
+input[type=text] {
+  width: 100px;
+  -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+}
+input[type=text]:focus {
+  width: 250px;
+  background-color: rgba(41,83,152,0.1);
+}
+
+ form.Search button {
+  float: left;
+  background: rgb(0,0,0);
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.Search button:hover {
+  background: #0b7dda;
+}
+
+
