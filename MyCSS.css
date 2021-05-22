@@ -100,3 +100,27 @@ form.Search button:hover {
 h2:active> span{
 	visibility: visible;
 }
+
+nav ul {
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+}
+
+nav li ul{
+	position: absolute;
+	display: none;
+}
+
+nav li:hover ul{
+	display: block;
+}
+
+nav ul li:hover ul li{
+	display: block;
+	background-color: blue;
+	text-align: center;
+	color: white;
+}
